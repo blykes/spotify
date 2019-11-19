@@ -3,17 +3,17 @@ package com.spotify;
 import org.springframework.context.annotation.Bean;
 
 
-public class SpotifyModel {
+public class TrackModel {
 
     private String artist;
     private String trackName;
     private String album;
 
-    public SpotifyModel(){
+    public TrackModel(){
         super();
     }
 
-    public SpotifyModel(String artist, String trackName, String album){
+    public TrackModel(String artist, String trackName, String album){
         super();
         this.album = album;
         this.artist = artist;
@@ -46,7 +46,7 @@ public class SpotifyModel {
 
     @Override
     public String toString() {
-        return "SpotifyModel{" +
+        return "TrackModel{" +
                 "artist='" + artist + '\'' +
                 ", trackName='" + trackName + '\'' +
                 ", album='" + album + '\'' +

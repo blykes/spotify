@@ -28,6 +28,7 @@ public class Search {
 
     public static void searchArtists(String artist) throws IOException, SpotifyWebApiException {
         //final Paging<Artist> artistPaging = searchArtistsRequest.execute();
+
         //searchArtists searches artist by name
         Artist[] artists = spotifyApi.searchArtists(artist).build().execute().getItems();
         System.out.println("Total: " + artists.length);
