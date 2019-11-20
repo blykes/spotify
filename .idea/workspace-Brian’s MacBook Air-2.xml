@@ -56,7 +56,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -82,9 +82,6 @@
   <component name="SpringBeansView">
     <option name="beanDetailsProportion" value="0.3" />
   </component>
-  <component name="StructureViewFactory">
-    <option name="ACTIVE_ACTIONS" value=",SHOW_PROPERTIES,SHOW_INTERFACES" />
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -105,8 +102,7 @@
       <workItem from="1574090843309" duration="790000" />
       <workItem from="1574092809130" duration="239000" />
       <workItem from="1574172464893" duration="530000" />
-      <workItem from="1574191050256" duration="9819000" />
-      <workItem from="1574225623950" duration="1383000" />
+      <workItem from="1574191050256" duration="9912000" />
     </task>
     <servers />
   </component>
@@ -118,9 +114,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
